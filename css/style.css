@@ -156,6 +156,20 @@ img{
     font-size: 14px;
 }
 
+/* labels */
+
+.sale__50{
+    position: absolute;
+    background-color: red;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    left: 10px;
+    bottom: 150px;
+    padding: 5px 10px;
+    z-index: 10;
+}
+
 /* footer */
 
 .page-footer{
