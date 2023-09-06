@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+html{
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif; 
+}
+
 .container{
     max-width: 1000px;
     margin: 0 auto;
