@@ -38,3 +38,49 @@ a{
 .col-4{
     flex-basis: calc(100% / 12 * 4);
 }
+
+/* nav bar */
+
+.nav-bar{
+    background-color: #FF6900;
+}
+
+.nav-bar__gender{
+    display: flex;
+    justify-content:flex-start;
+    gap: 10px;
+
+} 
+
+.nav-bar__gender>li{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.nav-bar__content{
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar__logo{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.nav-bar__img{
+    width: 150px;
+}
+
+.nav-bar__menu{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    filter: invert(100%);
+}
+
+.nav-bar__icons{
+    width: 16px;
+}
+
