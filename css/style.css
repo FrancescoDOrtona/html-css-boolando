@@ -26,6 +26,7 @@ ul,ol,menu{
 a{
     text-decoration: none;
     color: currentColor;
+    cursor: pointer;
 }
 
 /* row & col */
@@ -78,7 +79,7 @@ a{
     width: 150px;
 }
 
-.nav-bar__menu{
+.icon-menu{
     display: flex;
     justify-content: flex-end;
     gap: 10px;
@@ -148,4 +149,9 @@ a{
     gap: 15px;
     font-size: 13px;
     padding-top: 10px;
+}
+
+.footer__icons{
+    padding-top: 10px;
+    width: 16px;
 }
