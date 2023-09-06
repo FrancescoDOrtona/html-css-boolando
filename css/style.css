@@ -158,7 +158,7 @@ img{
 
 /* labels */
 
-.sale__50{
+.sale__label{
     position: absolute;
     background-color: red;
     color: white;
@@ -170,6 +170,30 @@ img{
     z-index: 10;
 }
 
+.sale__label.sale__sustainability{
+    background-color: #008000;
+    left: 55px;
+}
+
+#green{
+    background-color: #008000;  
+}
+
+.sale__pref{
+    position: absolute;
+    cursor: pointer;
+    display: block;
+    background-color: white;
+    font-size: 30px;
+    right: 10px;
+    top: 20px;
+    padding: 5px 15px;
+    z-index: 10;
+}
+
+.sale__pref:hover{
+    color: red;
+}
 /* footer */
 
 .page-footer{
