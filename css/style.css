@@ -93,4 +93,9 @@ a{
 
 .sale__item-img{
     width: 100%;
+    padding: 10px;
+}
+
+.sale{
+    padding-top: 150px;
 }
