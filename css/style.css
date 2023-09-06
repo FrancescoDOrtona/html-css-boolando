@@ -29,6 +29,11 @@ a{
     cursor: pointer;
 }
 
+img{
+    display: block;
+    max-width: 100%;
+    cursor: pointer;
+}
 /* row & col */
 
 .row{
@@ -49,6 +54,7 @@ a{
     right: 0;
     top: 0;
     box-shadow: 0px 0px 5px 0px black;
+    z-index: 100;
 }
 
 .nav-bar__gender{
@@ -91,15 +97,36 @@ a{
 }
 
 /* main content */
+.sale{
+    padding-top: 150px;
+}
 
 .sale__item-img{
     width: 100%;
     padding: 10px 10px 0px 10px;
+    opacity: 1;
+    z-index: 2;
 }
 
-.sale{
-    padding-top: 150px;
+.sale__item-img-2{
+    width: 100%;
+    padding: 10px 10px 0px 10px;
+    position: absolute;
+    opacity: 0;
+    inset: 0;
+    z-index: 1;
+    display: block;
 }
+
+.sale__img{
+    position: relative;
+}
+
+.sale__img:hover .sale__item-img-2{
+    opacity: 1;
+    transition: .25s ease-in-out;
+}
+
 
 .sale__description{
     padding: 0 10px 40px 10px;
@@ -156,3 +183,4 @@ a{
     padding-top: 10px;
     width: 16px;
 }
+
