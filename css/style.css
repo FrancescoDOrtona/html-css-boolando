@@ -124,7 +124,7 @@ img{
 
 .sale__img:hover .sale__item-img-2{
     opacity: 1;
-    transition: .25s ease-in-out;
+    transition: 1s ease-in-out;
 }
 
 
